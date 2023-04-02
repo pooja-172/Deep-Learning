@@ -1,1 +1,11 @@
-# Deep-Learning
+# Visual Product Recognition
+
+In retail, there has always been a need to improve customers' shopping experience and automate corporate procedures. Retail operations and customer experiences may be enhanced significantly by incorporating product identification capabilities in businesses. This solution can be used for multiple applications like identifying which products are in high demand, detecting counterfeit products, stock/inventory updation, and so on. The main components required to design a product recognition system are object detection and image recognition. 
+
+Transfer learning and ResNet are two popular techniques in deep learning that have been used successfully for product recognition. Transfer learning is the process of leveraging the knowledge acquired while solving one problem to solve a distinct but related problem. Transfer learning in deep learning involves adapting a neural network trained on a large dataset to a new task by fine-tuning its weights on a smaller dataset. By doing so, the network can learn more efficiently and effectively, as it has already learned useful features from the large dataset that can be applied to the new task. 
+
+ResNet, or residual network, is a type of architecture for deep neural networks that facilitates the training of networks that are significantly deeper than was previously feasible. ResNet introduces a new type of layer known as a residual block, which enables the direct transfer of data between earlier and later layers. This alleviates the vanishing gradient problem that can occur in very deep networks when gradients become too small to effectively update weights.  
+
+Transfer learning and ResNet can be combined to increase accuracy and reduce training time for product recognition. To recognize specific products, for instance, a pre-trained ResNet model can be fine-tuned on a reduced dataset of product images. The pre-trained ResNet model has already learned the general features of images, such as edges, corners, and textures, which can be useful for recognizing products. A smaller dataset can help the model acquire more particular characteristics pertinent to the goods being recognized. 
+
+Overall, the combination of transfer learning and ResNet is a powerful technique for product recognition, enabling high accuracy while reducing training time and computational resources.
